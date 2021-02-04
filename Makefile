@@ -12,7 +12,7 @@ setup:
 
 install:
 	# This should be run from inside a virtualenv
-	pip install --upgrade pip3 &&\
+	pip3 install --upgrade pip &&\
 		pip install -r requirements.txt
 
 test:
