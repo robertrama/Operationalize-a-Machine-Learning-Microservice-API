@@ -6,10 +6,14 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath="ramascanurobert/project"
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login &&\
+    docker image tag project $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker image push $dockerpath
