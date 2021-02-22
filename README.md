@@ -1,4 +1,5 @@
 <include a CircleCI status badge, here>
+[![CircleCI](https://app.circleci.com/pipelines/github/robertrama/Operationalize-a-Machine-Learning-Microservice-API/30/workflows/a89c2ef8-7ff5-47a0-ad43-f4d9ffbaff9a/jobs/30)]
 
 ## Project Overview
 
