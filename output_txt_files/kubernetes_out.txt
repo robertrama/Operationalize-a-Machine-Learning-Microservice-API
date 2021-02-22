@@ -1,1 +1,19 @@
 <paste log output from Kubernetes-mediated prediction, here>
+
+(venv) MacBook-Air-di-Alex:project-ml-microservice-kubernetes alexramascanu$ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "udacity" already exists
+NAME                       READY   STATUS    RESTARTS   AGE
+udacity                    1/1     Running   0          11s
+udacity-6866467d47-7gzp8   1/1     Running   0          3m21s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+
+MacBook-Air-di-Alex:project-ml-microservice-kubernetes alexramascanu$ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
